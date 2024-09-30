@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif
 }
 
 .container {
@@ -29,15 +30,11 @@ text-align: center;
 padding: 40px;
 flex-direction: column;
 }
-
-
-
-.text:last-child{
+ .card:last-child{
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
-}
-
+} 
 
 .card:first-child {
   grid-column: 1/2;
